@@ -1,0 +1,54 @@
+<!--Lab1 Online Tip Calculator-->
+<!--Alexey Aulov-->
+<!---->
+
+<div class="container">
+    
+    <!--header class for display-->        
+    <div class="header">
+      <h1>The Online Tip Calculator</h1>
+    </div>
+    <br>
+    <br>
+    <!--containertwo contains the input line as well as the calling of initialamount for the initial amount on the bill-->
+    <div class="containertwo">
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+            </div>
+            <Input @id="initialamount" @type="text" @value={{this.initialamount}} @size="31" disabled={{this.entryNotAllowed}} />
+        
+        </div>    
+    </div>
+    <br>
+    
+    <!--col text-center is the three button class containing all actions to pass .15,.18,.20 to function to compute one of three
+    options pending on what button is clicked-->
+    <div class="col text-center">
+        <div class="btn-group-lg" role="group" aria-label="Percantage Button">
+            <button id="15B" type="button" class="btn btn-secondary" onclick={{action "clickOnTipChange" ".15"}}>15%</button>
+            <button id="18B" type="button" class="btn btn-secondary" onClick={{action "clickOnTipChange" ".18"}}>18%</button>
+            <button id="20B" type="button" class="btn btn-secondary" onClick={{action "clickOnTipChange" ".20"}}>20%</button>
+        </div>
+    </div>
+    <br>
+   <!--table class is the output class to display the results of the resulting outcomes by calling the functions this.tipamount 
+   for the tip and this.totalamount for the total amount with the tip included.-->
+    <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Bill:</th>
+        <th scope="col">Tip:</th>
+        <th scope="col">Total Amount:</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h3>${{this.initialamount}}</h3></td>
+      <td><h3>${{this.tipamount}}</h3></td>
+      <td><h3>${{this.totalamount}}</h3></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>

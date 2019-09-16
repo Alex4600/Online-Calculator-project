@@ -1,62 +1,3 @@
-<<<<<<< HEAD
-# ember-alexlevi
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd ember-alexlevi`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-=======
 # Online tipping calculator 
 
 Author: Alexey Aulov
@@ -77,6 +18,7 @@ Describe the time you spent on the project.
  * [yes] User can enter total bill amount
  * [yes] User can choose between at least three tip tiers (e.g. 15%, 18%, 20%) and see the total tip 
  * [yes] User can see the total with tip.
-
+##
+Shoutout to Professor for helping me, the best professor out there. Professor helped me through the any bugs that I had within the program as well as anything that would be recomended to help perfect it. Without him I dont know how I would've finished the project.
 
 >>>>>>> 1ea68111e83dfebf2c0707eef52524ac538d9d47

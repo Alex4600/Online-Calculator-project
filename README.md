@@ -10,7 +10,7 @@ to the original bill amount, and somehow display the results.
 Describe the time you spent on the project.
  * Tutorials, research: 4 1/2 hours
  * Coding required stories: 5 hours+
- * Optional and extras: 5 hours+ (more than I would like to admit)
+ * Optional and extras: 5 hours
 
 ## User stories
 
@@ -18,7 +18,5 @@ Describe the time you spent on the project.
  * [yes] User can enter total bill amount
  * [yes] User can choose between at least three tip tiers (e.g. 15%, 18%, 20%) and see the total tip 
  * [yes] User can see the total with tip.
-##
-Shoutout to Professor for helping me, the best professor out there. Professor helped me through the any bugs that I had within the program as well as anything that would be recomended to help perfect it. Without him I dont know how I would've finished the project.
 
 >>>>>>> 1ea68111e83dfebf2c0707eef52524ac538d9d47
